@@ -1,0 +1,85 @@
+body{
+    background-color: grey;
+    
+}
+
+header{
+    background-color: darkgray;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+nav a{
+    text-align: right;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+nav a:hover{
+    border: 1px;
+    color: orange;
+    text-decoration: none;
+}
+section video{
+    width: 200vh;
+    align-content: center;
+    margin-bottom: 10px;
+}
+.container{
+    display: inline-block;
+}
+section, .text{
+    padding-left: 30px;
+}
+section .Selfy-Photo{
+    margin-left: 920px;
+    margin-top: -110px;
+    object-fit: cover;
+}
+section .Selfy-Photo img{
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+h2, h3{
+    color: orange ;
+}
+ul{
+    list-style: none;
+}
+main ul li{
+    padding: 8px;
+    background-color: #313131;
+    color: #fff;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+form{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 15px 0;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+input[type="submit"]
+{
+    
+    width: 100%;
+    background-color: lightslategray;
+    color: aliceblue;
+    border: 1px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+textarea{
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+    color: red;
+}
